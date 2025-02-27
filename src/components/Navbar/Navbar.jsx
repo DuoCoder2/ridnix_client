@@ -10,7 +10,7 @@ const Navbar = () => {
             className={({ isActive }) =>
               `px-4 py-2 text-lg font-medium transition duration-300 ${
                 isActive ? "text-[#F4B400]" : "text-[#333333]"
-              } hover:text-[#4CAF93]`
+              } hover:text-[#4CAF93] font-inter`
             }
           >
             {item}
@@ -60,7 +60,7 @@ const Navbar = () => {
 
       {/* Navbar End */}
       <div className="navbar-end">
-        <a className="btn bg-[#4CAF93] text-white hover:bg-[#3A8D75] px-5 py-2 rounded-md shadow-md transition">
+        <a className="btn bg-[#4CAF93] text-white hover:bg-[#3A8D75] px-5 py-2 rounded-md shadow-md transition font-roboto">
           Message
         </a>
       </div>

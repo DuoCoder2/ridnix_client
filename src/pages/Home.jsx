@@ -1,12 +1,14 @@
-
+import Slider from "../components/Slider/Slider";
 
 const Home = () => {
-    return (
-        <div>
-            <h1 className="text-4xl font-semibold underline">This is Home page</h1>
-            <p>Anything</p>
-        </div>
-    );
+  return (
+    <div>
+      {/* slider */}
+      <div className="">
+        <Slider />
+      </div>
+    </div>
+  );
 };
 
 export default Home;

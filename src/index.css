@@ -5,6 +5,7 @@
     --font-inter:  "Inter", serif; 
     --font-roboto:  "Roboto", serif; 
     --font-poppins:  "Poppins", serif; 
+    --color-pt-color: #333333;
   }
 
 @import "tailwindcss";

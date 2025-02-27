@@ -21,7 +21,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-white shadow-md sticky">
+    <div className="navbar bg-white shadow-md">
       {/* Navbar Start */}
       <div className="navbar-start">
         {/* Mobile Menu */}

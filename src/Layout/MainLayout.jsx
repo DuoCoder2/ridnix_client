@@ -5,11 +5,11 @@ const MainLayout = () => {
   return (
     <div>
       {/* navbar */}
-      <div className="container mx-auto">
+      <div className="container mx-auto md:mb-5">
         <Navbar />
       </div>
       {/* outlets */}
-      <div>
+      <div className="container mx-auto px-0.5">
         <Outlet />
       </div>
       {/* footer */}
